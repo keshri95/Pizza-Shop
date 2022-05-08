@@ -10,7 +10,7 @@ function App() {
           <Header />
       </Grid>
       <Grid item>
-        <Filter />
+        {/* <Filter /> */}
       </Grid>
       <Grid item container style={{marginTop: '20px'}}>
         <Grid item xs={false} sm={2} />
