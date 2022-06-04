@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <AppBar position="static">
       <Toolbar>
-        <Typography>Pizza</Typography>
+        <Typography>
+          <img src="https://www.dominos.co.in/assets/Logo.png" alt="logo" />
+        </Typography>
       </Toolbar>
     </AppBar>
   );

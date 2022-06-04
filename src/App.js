@@ -12,14 +12,13 @@ function App() {
       <Grid item>
         {/* <Filter /> */}
       </Grid>
-      <Grid item container style={{marginTop: '20px'}}>
+      <Grid item container style={{marginTop: '10px', borderRadius: '10px'}}>
         <Grid item xs={false} sm={2} />
         <Grid item xs={12} sm={8}>
           <Content />
         </Grid>
         <Grid item xs={false} sm={2} />
       </Grid>
-    
     </Grid>
   );
 }
